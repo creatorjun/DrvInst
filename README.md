@@ -604,24 +604,17 @@ int wmain() {
 | Phase 5 | InstallViewModel + CliView 구현 | ✅ 완료 |
 | Phase 6 | AppBuilder DI 조립 + main.cpp 완성 | ✅ 완료 |
 | Phase 7 | WinPE 실환경 통합 테스트 | ⬜ 미완료 |
-| Phase 8 | Mock 테스트 구현 | ⬜ 미완료 |
+| Phase 8 | Mock 테스트 구현 | ✅ 완료 |
 
 ---
 
 ## 17. 잔여 작업
 
 ```
-1. tests/mock/*.hpp 구현
-   └─ MockSmbiosPort, MockInfSearchPort,
-      MockDriverInstallPort, MockDeviceRepository
-
-2. tests/domain/DriverMatchServiceTest.cpp 구현
-   └─ HW ID exact match / Compatible ID prefix match 케이스 검증
-
-3. WinPE 실환경 통합 테스트
+1. WinPE 실환경 통합 테스트
    └─ setupapi.dev.log 출력과 비교 검증
    └─ Y:\KdicSetup\Drivers\{boardName}\ 경로 구조 확인
 
-4. vcxproj.filters 파일 정리
+2. vcxproj.filters 파일 정리
    └─ 소스 필터를 디렉터리 구조와 일치시킴
 ```
