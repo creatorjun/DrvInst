@@ -1,0 +1,11 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Folder Name="/솔루션 항목/">
+    <File Path=".gitignore" />
+    <File Path="README.md" />
+  </Folder>
+  <Project Path="DrvInst/DrvInst.vcxproj" Id="094e784c-f1b4-4531-8128-7ce3315a2bd0" />
+</Solution>

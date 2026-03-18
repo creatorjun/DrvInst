@@ -1,0 +1,18 @@
+﻿  CliView.cpp
+  InstallViewModel.cpp
+  ConsoleLoggerAdapter.cpp
+  Win32DeviceRepository.cpp
+  Win32DriverInstallAdapter.cpp
+  Win32DriverStoreAdapter.cpp
+  Win32InfSearchAdapter.cpp
+  Win32SmbiosAdapter.cpp
+  DeviceEnumerateInteractor.cpp
+  DriverInstallInteractor.cpp
+  InfImportInteractor.cpp
+  InfSearchInteractor.cpp
+  SmbiosReaderInteractor.cpp
+  AppBuilder.cpp
+  main.cpp
+  코드를 생성하고 있습니다...
+LIBCMTD.lib(exe_winmain.obj) : error LNK2019: WinMain"int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+D:\kdic\Desktop\DrvInst\x64\Debug\DrvInst.exe : fatal error LNK1120: 1개의 확인할 수 없는 외부 참조입니다.
